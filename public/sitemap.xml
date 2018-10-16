@@ -3,30 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://careers-md.netlify.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://careers-md.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://careers-md.netlify.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/work/</loc>
+    <loc>https://careers-md.netlify.com/work/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/care/</loc>
+    <loc>https://careers-md.netlify.com/care/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/life-at-md/</loc>
+    <loc>https://careers-md.netlify.com/life-at-md/</loc>
   </url>
   
 </urlset>

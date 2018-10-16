@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://careers-md.netlify.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Careers site for MD"
 
 
 [menu]

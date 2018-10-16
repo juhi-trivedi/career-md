@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Careers site for MD</title>
+    <link>https://careers-md.netlify.com/</link>
+    <description>Recent content on Careers site for MD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://careers-md.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Work</title>
-      <link>http://example.org/work/</link>
+      <link>https://careers-md.netlify.com/work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/work/</guid>
+      <guid>https://careers-md.netlify.com/work/</guid>
       <description></description>
     </item>
     
     <item>
       <title>care</title>
-      <link>http://example.org/care/</link>
+      <link>https://careers-md.netlify.com/care/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/care/</guid>
+      <guid>https://careers-md.netlify.com/care/</guid>
       <description></description>
     </item>
     
     <item>
       <title>life-at-md</title>
-      <link>http://example.org/life-at-md/</link>
+      <link>https://careers-md.netlify.com/life-at-md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/life-at-md/</guid>
+      <guid>https://careers-md.netlify.com/life-at-md/</guid>
       <description></description>
     </item>
     
