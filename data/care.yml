@@ -1,0 +1,52 @@
+enable: true
+title: How We Care
+
+carelist:
+  - image: "/images/employee-first.jpg"
+    caretitle: Employee First
+    description: >
+      A world class working environment with you at the core
+  - image: "/images/parental-leave.jpg"
+    caretitle: Parental Leave
+    description: >
+      We are with you when you are nurturing a new beginning
+  - image: "/images/support.jpg"
+    caretitle: support
+    description: >
+      Your every changing need becomes our responsibility as well
+  - image: "/images/bonus-program.jpg"
+    caretitle: Bonus Program
+    description: >
+      Every bit of energy you put in counts & is appreciated
+  - image: "/images/overtime.jpg"
+    caretitle: overtime
+    description: >
+      Every bit of energy you put in counts & is appreciated
+  - image: "/images/indoor-outdoor-games.jpg"
+    caretitle: Indoor and Outdoor Games
+    description: >
+      Exciting breaks in and out of the office with your office mates
+  - image: "/images/library.jpg"
+    caretitle: Open Library
+    description: >
+      Open your mind & look into the world right from your own work-place
+  - image: "/images/rest-room.jpg"
+    caretitle: Relax to restore
+    description: >
+      Open your mind & look into the world right from your own work-place
+  - image: "/images/celebration.jpg"
+    caretitle: Celebrations
+    description: >
+      Open your mind & look into the world right from your own work-place
+  - image: "/images/company-onboard-training.jpg"
+    caretitle: on-board training
+    description: >
+      Training & Re-training to open your eyes to more
+  - image: "/images/open-office.jpg"
+    caretitle: Open Office Culture
+    description: >
+      Seamless offices, transparent and approachable structures
+  - image: "/images/certification.jpg"
+    caretitle: Certification Reimbursement
+    description: >
+      We appreciate & provide for every attempt you make to sharpen your skill

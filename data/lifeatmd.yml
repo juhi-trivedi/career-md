@@ -1,0 +1,47 @@
+enable: true
+bannerimg: images/life-at-md.jpg
+title: We Promote a culture of <b>Growth</b> and <b>Success</b>, for our people as much as our business.
+paragraph: >
+  - Anil Gupta (CEO @ Multidots)
+
+iframe: https://www.youtube.com/embed/1jf96rs8X4Q  
+image: images/our-team.jpg 
+
+imgcontent:
+  - content: >
+      Passionate, creative, innovative, resilient and above all, a great team to work with; that is us! Growth & success for all; the business & the workforce both, drives the culture at Multidots. So, when the expectations are getting tougher and the days are getting longer, we work hard & party harder with a balanced work-life integration at Multidots.
+    blockquote: “Doing It with Passion or Not At All” is The Way We Do It @ Multidots!
+  - content: >
+      We adapt to the changing needs of the workforce; their lifestyles, their expectations and the way things need to be done in the millennial age for our Gen-Y teams pushing them to cross their own limits and deliver the best to our global clientele. Our success is our people and we indeed could not accomplish what we do every day without them. The outstanding jobs they do make them undoubtedly our most valuable resources.
+    blockquote: Balancing the Two Ends of the Spectrum – the Clients & the Workforce is what Keeps Us Going!
+
+forte:
+  - image: images/meaningful-work-icon.png
+    title: Work & Belonging
+    content: >
+      Focussed on self-motivated individuals we strongly believe that our footprints on the global map are credited to our responsible teams where every individual feels accountable & empowered to do more. That is exactly Multidots means a sense of belonging and evokes ownership.
+  - image: images/personal-growth-icon.png
+    title: Personal Growth
+    content: >
+      As a team we have one single target. Being better tomorrow than today. We push individuals to explore their own creative sides and collaborate effectively to complement each other so that at Multidots, every individual becomes a brand! Growing & grooming is an indispensable part of our culture.
+  - image: images/proven-leadership-icon.png
+    title: Proven leadership
+    content: >
+      Growing two-fold is our trademark. We believe in identifying leaders with ideologies of agility, consistency in performances & team spirit to effectively steer our teams. If you have skills & talents, passion & the power to lead, then ‘Life is Awesome’ at Multidots.
+  - image: images/dynamic-environment-icon.png
+    title: Dynamic Environment
+    content: >
+      Multidots has a unique culture that is friendly, inviting, productive and fun. This creates an environment which influences employees to be passionate about the work they do. And that’s why our employees feel they’re building a cathedral and not just laying bricks.
+
+galtitle: Igniting Passions
+galquotes: “The Only Way to Do Great Work is to Love What You Do”
+galquotesauthor: >
+  - Steve Jobs
+galdesc: This is exactly what happens at Multidots. We have a unique friendly & inviting culture influencing the teams to think out of the box to discover true passions bringing them into the work they do.
+gallery:
+  - image: https://careers.multidots.com/wp-content/uploads/2018/03/gallery-17.jpg
+  - image: https://careers.multidots.com/wp-content/uploads/2018/03/home-gallery-3.jpg
+  - image: https://careers.multidots.com/wp-content/uploads/2018/03/home-gallery-2.jpg
+  - image: https://careers.multidots.com/wp-content/uploads/2018/03/gallery-1.jpg
+  - image: https://careers.multidots.com/wp-content/uploads/2018/03/home-gallery-3.jpg
+

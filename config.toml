@@ -1,0 +1,55 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+
+[menu]
+
+  [[menu.header]]
+    weight = 1
+    name = "Life @ Multidots"
+    url = "/life-at-md"
+  [[menu.header]]
+    weight = 2
+    name = "Recruitment Process"
+    url = "/recruitment-process"
+  [[menu.header]]
+    weight = 3
+    name = "Current opening"
+    url = "/current-opening"
+  [[menu.header]]
+    weight = 4
+    name = "Company"
+    url = "/submit-resume"
+  [[menu.header]]
+    weight = 5
+    name = "About Us"
+    url = "/about-us"
+
+    
+# Parameters passed inside pages
+
+[params]
+  logo      = "/images/md-header-logo.png"
+  email     = "careers@multidots.com"
+  phnnum    = "+91 79 2970 8121"
+
+  dateFormat = "6 January 2006"
+
+  facebook  = "https://www.facebook.com/multidots/"
+  twitter   = "https://twitter.com/multidots"
+  linkedin  = "https://www.linkedin.com/company-beta/312439/"
+  instagram = "https://www.instagram.com/multidots/"
+  copyright = "© 2018 Multidots Solutions Pvt. Ltd."
+  footerdescription = "With a balanced approach to work we understand the diverse needs of individuals on our team. We push you to go beyond your own limits and support you in every responsibility you shoulder, recognizing every dream you have, mentoring you for life rather than only work. Come join us because you make us complete."
+  
+  [params.slider]
+    enable = true
+    image = "/images/banner-img.png"
+    
+  [params.about]
+    enable = true
+    title = "JOIN OUR TEAM OF <span>INNOVATORS</span>"
+    content = " Our quest for engaging outstanding talent inspires us to provide a culture that challenges, inspires and motivates individuals to go beyond their own limits. As a member of our teams you will be a part of the most dynamic group of innovators & thinkers, expert problem-solvers, design geniuses and programming gurus."
+    linktext = "Current opening"
+    url = "https://careers.multidots.com/careers/"
