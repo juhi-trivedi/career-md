@@ -1,0 +1,33 @@
+enable: true
+title: Open Positions
+description: >
+             We are looking for thinkers, believers & visionaries to join our teams to help our clients attain digital maturity through digital transformations and help build platforms empowering innovators to realize their visions.
+openingbtn: View all openings (6)
+applytext: Are you interested but do not see a position that fits? Get ready to rediscover yourself!
+applybtn: Apply Now
+
+positionslist:
+  - positionsname: WordPress Team Lead
+    positionsexp: 'Experience: 4 - 6 Years'
+    positionsvacancy: 'Vacancy : 1'
+    positionsapply: Apply Now
+  - positionsname: WordPress Developer
+    positionsexp: 'Experience: 2 - 3 Years'
+    positionsvacancy: 'Vacancy : 6'
+    positionsapply: Apply Now
+  - positionsname: Sr. Web Developer
+    positionsexp: 'Experience: 4 - 5 Years'
+    positionsvacancy: 'Vacancy : 2'
+    positionsapply: Apply Now
+  - positionsname: Content Writer
+    positionsexp: 'Experience: 3 - 4 Years'
+    positionsvacancy: 'Vacancy : 1'
+    positionsapply: Apply Now
+  - positionsname: Jr. Quality Analyst
+    positionsexp: 'Experience: 1.5 - 3 Years'
+    positionsvacancy: 'Vacancy : 1'
+    positionsapply: Apply Now
+  - positionsname: Sr. Web Developer
+    positionsexp: 'Experience: 4 - 5 Years'
+    positionsvacancy: 'Vacancy : 2'
+    positionsapply: Apply Now

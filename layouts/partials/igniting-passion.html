@@ -1,0 +1,20 @@
+<section class="home-gallery">
+    <div class="container-full">
+        <h2>{{ .Site.Data.lifeatmd.galtitle }}</h2>
+        <p class="quotes-from-other">{{ .Site.Data.lifeatmd.galquotes }}</p>
+        <span>{{ .Site.Data.lifeatmd.galquotesauthor }}</span>
+        <p>{{ .Site.Data.lifeatmd.galdesc }}</p>
+        <div class="gallery-slider">
+            {{ range .Site.Data.lifeatmd.gallery }}
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 gallery-slide">
+                <div class="gallery-image image-block">
+                    <a class="gallery-image-popup" href="{{ .image }}">
+                        <img src="{{ .image }}" alt="Image" title="gallery-17" />
+                    </a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <a class="btn orange-btn" href="https://careers.multidots.com/md-gallery">View All</a>
+    </div>
+</section>

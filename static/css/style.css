@@ -444,7 +444,7 @@ Counter section
 /* ===================================
 Blockquote section
 ====================================== */
-.blockquote-section { width: 100%; float: left; text-align: center; background: #eceef3 url(images/hp-blockcontent-bg.png) no-repeat center; background-attachment: fixed; padding: 50px 0px; }
+.blockquote-section { width: 100%; float: left; text-align: center; background: #eceef3 url(../images/hp-blockcontent-bg.png) no-repeat center; background-attachment: fixed; padding: 50px 0px; }
 .blockquote-section .blockquote-content { background-color: #FFF; padding: 57px 50px 53px; margin-left: 20px; -webkit-box-shadow: 0px 0px 25px rgba(14, 14, 14, 0.1); box-shadow: 0px 0px 25px rgba(14, 14, 14, 0.1);}
 .blockquote-section .blockquote-content p {color: #242524; font-size: 40px; font-weight: 300; line-height: 60px;}
 

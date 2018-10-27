@@ -1,0 +1,129 @@
+<section class="opening-section">
+    <div class="container-fluid wow fadeInUp" data-wow-delay="0.3s">
+        <h2>{{ .Site.Data.openpositions.title }}</h2>
+        <p>{{ .Site.Data.openpositions.description }}</p>
+        <div class="row opening-slider">
+            {{ range .Site.Data.openpositions.positionslist }}
+            <div class="opening-slide">
+                <a class="opening-name" href="https://careers.multidots.com/careers/wordpress-team-lead-2/">{{ .positionsname }}</a>
+                <span class="experince">{{ .positionsexp }}</span>
+                <span class="vacancy">{{ .positionsvacancy }}</span>
+                <a class="btn empty-btn submitresume-btn" data="WordPress Team Lead" href="#formpopup">{{ .positionsapply }}</a>
+                <a class="opening-full-box-link" href="https://careers.multidots.com/careers/wordpress-team-lead-2/"></a>
+            </div>
+            {{ end }}
+        </div>
+        <a class="btn orange-btn" href="https://careers.multidots.com/careers/">{{ .Site.Data.openpositions.openingbtn }}</a>
+        <div class="col-xs-12">
+            <hr/>
+            <p class="apply-anyway wow slideInUpSmooth" data-wow-delay="0.1s">{{ .Site.Data.openpositions.applytext }}</p>
+            <a class="btn orange-btn wow slideInUpSmooth" data-wow-delay="0.3s" href="https://careers.multidots.com/submit-resume">{{ .Site.Data.openpositions.applybtn }}</a>
+            <div class="submitresume-form-content contact-form-block" style="display: none;" id="formpopup">
+                <div role="form" class="wpcf7" id="wpcf7-f25534-o1" lang="en-US" dir="ltr">
+                    <div class="screen-reader-response"></div>
+                    <form action="/#wpcf7-f25534-o1" method="post" class="wpcf7-form" enctype="multipart/form-data" novalidate="novalidate">
+                        <div style="display: none;">
+                            <input type="hidden" name="_wpcf7" value="25534" />
+                            <input type="hidden" name="_wpcf7_version" value="4.7" />
+                            <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f25534-o1" />
+                            <input type="hidden" name="_wpnonce" value="aac12025a9" />
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <span class="wpcf7-form-control-wrap text-99">
+                                <input type="text" name="text-99" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                    aria-required="true" aria-invalid="false" placeholder="Full Name*" />
+                            </span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <span class="wpcf7-form-control-wrap email-829">
+                                <input type="email" name="email-829" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                                    aria-required="true" aria-invalid="false" placeholder="E-mail*" />
+                            </span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <span class="wpcf7-form-control-wrap tel-797">
+                                <input type="tel" name="tel-797" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel"
+                                    aria-invalid="false" placeholder="Phone Number" />
+                            </span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <span class="wpcf7-form-control-wrap menu-412">
+                                <select name="menu-412" class="wpcf7-form-control wpcf7-select" aria-invalid="false">
+                                    <option value="Experience">Experience</option>
+                                    <option value="1 Year">1 Year</option>
+                                    <option value="2Years">2Years</option>
+                                    <option value="3Years">3Years</option>
+                                    <option value="4Years">4Years</option>
+                                    <option value="5Years">5Years</option>
+                                </select>
+                            </span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <span class="wpcf7-form-control-wrap menu-413">
+                                <select name="menu-413" class="wpcf7-form-control wpcf7-select" aria-invalid="false">
+                                    <option value="Notice Period Immediate">Notice Period Immediate</option>
+                                    <option value="1 Month">1 Month</option>
+                                    <option value="2 Months">2 Months</option>
+                                    <option value="3 Months">3 Months</option>
+                                </select>
+                            </span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <span class="wpcf7-form-control-wrap number-332">
+                                <input type="text" name="number-332" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                    aria-required="true" aria-invalid="false" placeholder="Current CTC*" />
+                            </span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <span class="wpcf7-form-control-wrap number-333">
+                                <input type="text" name="number-333" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                    aria-required="true" aria-invalid="false" placeholder="Expected CTC*" />
+                            </span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <span class="wpcf7-form-control-wrap text-977">
+                                <input type="text" name="text-977" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                    id="position_applied" aria-required="true" aria-invalid="false" placeholder="Position Applied for"
+                                />
+                            </span>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 md-file-input">
+                            <span class="wpcf7-form-control-wrap file-376">
+                                <input type="file" name="file-376" size="40" class="wpcf7-form-control wpcf7-file wpcf7-validates-as-required"
+                                    aria-required="true" aria-invalid="false" />
+                            </span>
+                            <b class="file-format">Allowed formats:
+                                <small>.pdf, .doc</small>
+                            </b>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <span class="wpcf7-form-control-wrap textarea-912">
+                                <textarea name="textarea-912" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"
+                                    placeholder="Anything Else You Want us to Know"></textarea>
+                            </span>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 md-career-custom-checkbox">
+                            <span class="wpcf7-form-control-wrap checkbox-720">
+                                <span class="wpcf7-form-control wpcf7-checkbox wpcf7-validates-as-required">
+                                    <span class="wpcf7-list-item first last">
+                                        <input type="checkbox" name="checkbox-720[]" value="" />
+                                        <span class="wpcf7-list-item-label"></span>
+                                    </span>
+                                </span>
+                            </span>
+                            <span>I give my consent to the storage and processing of my personal data by Multidots as per their
+                                <a href="https://www.multidots.com/privacy-policy/"
+                                    target="_blank">privacy policy</a> compliance.</span>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <input type="submit" value="Apply Now" class="wpcf7-form-control wpcf7-submit" />
+                        </div>
+                        <div class="wpcf7-response-output wpcf7-display-none"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>

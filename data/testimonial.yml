@@ -1,0 +1,47 @@
+enable: true
+title: What Our People Say?
+description: >
+             The most important certification ever for us!
+
+
+testimoniallist:
+  - content: >
+             Wonderful company. Learning has always been encouraged by seniors. Management is easily approachable & always supportive in implementing new ideas. Good infrastructure and work-life balance. Events and celebrations are essential part of worklife here.
+    name: Ashok
+    designation: Network Admin
+    image: "/images/Ashok.png"
+  - content: >
+             MD provides freedom to experiment and try out new things. @MD I feel like family. They organize many events and activities for employees. Management is caring and provides guidance to employees on their career growth.
+    name: Nimesh
+    designation: Product Marketing Executive
+    image: "/images/Nimeshbhai.png"
+  - content: >
+             Multidots a company where employees (connected dots) are considered as family members. I am always thankful to Multidots for providing me a strong, solid, stable environment to evolve, grow and always look for the next innovation.
+    name: Sanjay
+    designation: Android Developer
+    image: "/images/Sanjay.png"
+  - content: >
+             MD is a great place to work at. The best thing about every DOT is that they enjoy their work! When I am with DOTS, I feel like family member.  The management including CEO & COO are appreciable and very easy to reach.
+    name: Sagar P
+    designation: Sr. WordPress Developer
+    image: "/images/Sagar.png"
+  - content: >
+             I joined MD as junior developer & within 6 months I learnt lot of things. Seniors are supportive, guided me all the way through my learning phase. MD has very friendly dots (my peers); decent & enjoyable events to enjoy. Good Infrastructure.
+    name: Preshita
+    designation: Jr. Javascript Developer
+    image: "/images/Presita.png"
+  - content: >
+             Great working environment, friendly atmosphere, supportive team, excellent work life balance where seniors are easily approachable. Activities, Events make this place enjoyable for us. The best CEO and COO I’ve ever seen.
+    name: Gati
+    designation: Sr. iOS Developer  
+    image: "/images/Gati.png"
+  - content: >
+             The ambiance and management are awesome.  Friendly Environment, Good Support from Seniors, HR and other teams. I enjoy my work at Multidots.
+    name: Parth
+    designation: Jr. BA
+    image: "/images/Parth.png"
+  - content: >
+             Multidots is a fabulous place to work. Wonderful work culture, great place to learn, collaborative management. It is like an extended family for me, where each member shares a sort of camaraderie and bond which is unique in itself.
+    name: Sudip
+    designation: Sr. QA
+    image: "/images/sudip.png"

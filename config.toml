@@ -53,3 +53,7 @@ title = "Careers site for MD"
     content = " Our quest for engaging outstanding talent inspires us to provide a culture that challenges, inspires and motivates individuals to go beyond their own limits. As a member of our teams you will be a part of the most dynamic group of innovators & thinkers, expert problem-solvers, design geniuses and programming gurus."
     linktext = "Current opening"
     url = "https://careers.multidots.com/careers/"
+    
+  [params.blockquotesection]
+    enable = true
+    content = "Creativity & technology the most unlikely yet powerful combination makes us different. Our unique strategies keep design of things at the core and pushes our solutions & frameworks beyond their own limits."

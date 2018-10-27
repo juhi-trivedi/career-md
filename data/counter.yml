@@ -1,0 +1,16 @@
+enable: true
+title: Counter
+
+counterlist:
+  - image: "/images/counter-icon-1.png"
+    counternums: 109
+    countername: Fun Affairs
+  - image: "/images/counter-icon-2.png"
+    counternums: 175
+    countername: Team size
+  - image: "/images/counter-icon-3.png"
+    counternums: 4622
+    countername: Followers
+  - image: "/images/counter-icon-4.png"
+    counternums: 117
+    countername: Training Sessions

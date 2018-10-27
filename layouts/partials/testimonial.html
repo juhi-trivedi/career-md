@@ -1,0 +1,22 @@
+<section class="testimonial-section">
+    <div class="container-fluid">
+        <h2>{{ .Site.Data.testimonial.title }}</h2>
+        <p class="setion-text">{{ .Site.Data.testimonial.description }}</p>
+        <div class="row testimonial-slider">
+            {{ range .Site.Data.testimonial.testimoniallist }}
+            <div class="testimonial-slide">
+                <p class="client-message">{{ .content }}</p>
+                <span class="client-name">{{ .name }}</span>
+                <span class="designation">{{ .designation }}</span>
+                <div class="client-photo">
+                    <img src="{{ .Site.BaseURL }} {{ .image }}" alt="Image">
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <div class="glasdoor-image wow zoomIn" data-wow-delay="0.5s">
+            <img src="https://careers.multidots.com/wp-content/themes/md-careers/images/glass-door-image.png" alt="Images" />
+            <a class="glass-door-link" href="https://www.glassdoor.co.in/Overview/Working-at-Multidots-Solutions-EI_IE991413.11,30.htm"></a>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,20 @@
+<section class="counter-section">
+    <div class="container-fluid">
+        <div class="row">
+            {{ range .Site.Data.counter.counterlist }}
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 wow slideInUp" data-wow-delay="0.1s">
+                <div class="counter-block">
+                    <div class="counter-icon">
+                        <img src="{{ .Site.BaseURL }} {{ .image }}" alt="Image">
+                    </div>
+                    <div class="counter-contet">
+                        <h2 class="counter">{{ .counternums }}</h2>
+                        <span class="counter-name">{{ .countername }}</span>
+                        <hr />
+                    </div>
+                </div>
+            </div>
+            {{ end }} 
+        </div>  
+    </div>
+</section>
