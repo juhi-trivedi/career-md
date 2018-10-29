@@ -1,11 +1,11 @@
 ---
-title: How can Beacons Help in Enhancing Customers’ Experience in Retail Stores?
+title: How can Beacons Help in Retail Stores?
 date: '2018-10-27T17:46:09+05:30'
 categories:
   - Web Development
 autoThumbnailImage: true
 thumbnailImagePosition: top
-thumbnailImage: /images/uploads/banner-1.jpg
+thumbnailImage: ''
 coverImage: /images/uploads/banner-1.jpg
 ---
 We all are aware of the traditional use of beacons such as in lighthouses, police car lights, etc. But with the advancing technology, beacons are nowadays widely used by the retailers for the purpose of advertisement and marketing of their products.  Beacons are usually small and they can be placed on the walls of the stores, both in and out. They produce signals which travel one way to nearby mobile devices. They transmit relevant information and targeted messages to likely patrons.
