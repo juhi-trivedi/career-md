@@ -20,7 +20,7 @@ title = "Careers site for MD"
   [[menu.header]]
     weight = 4
     name = "Company"
-    url = "/submit-resume"
+    url = "/post"
   [[menu.header]]
     weight = 5
     name = "About Us"

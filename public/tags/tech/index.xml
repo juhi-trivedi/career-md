@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on Careers site for MD</title>
+    <link>https://careers-md.netlify.com/tags/tech/</link>
+    <description>Recent content in Tech on Careers site for MD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Oct 2018 15:26:55 +0530</lastBuildDate>
+    
+	<atom:link href="https://careers-md.netlify.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building an Online Audience</title>
+      <link>https://careers-md.netlify.com/post/building-an-online-audience/</link>
+      <pubDate>Mon, 29 Oct 2018 15:26:55 +0530</pubDate>
+      
+      <guid>https://careers-md.netlify.com/post/building-an-online-audience/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas alias ut totam labore, rerum soluta harum vitae pariatur, optio, ad dolore, nihil eligendi nesciunt repellat esse provident sapiente. Repellendus, minus!
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis expedita repellendus laboriosam aliquid. Neque doloribus ea, id reprehenderit alias saepe debitis eligendi molestias odit, nesciunt rem. Dolorem saepe, provident dolore nesciunt laudantium nostrum enim natus veritatis harum maxime et iure ratione, nulla.</description>
+    </item>
+    
+  </channel>
+</rss>

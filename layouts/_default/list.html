@@ -1,35 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
 	{{ partial "head.html" . }}
+
 </head>
 <body>
 
-	{{ partial "header.html" . }}
+{{ partial "header.html" . }}
+
+{{ partial "page-title.html" . }}
+
+<section id="blog-full-width">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                {{ range .Data.Pages }}
+                <article class="blog-article wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">                    
+                    <div class="blog-post-image">
+                        <a href="{{ .Permalink }}">
+                             {{ with .Params.image }}<img class="img-fluid" src="{{ . | absURL }}" alt="post-image"/>{{ end }}
+                        </a>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blogpost-title">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h3>
+                        <div class="blog-meta">
+                            <span class="blog-date">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>
+                            {{ with .Params.author }}
+                            <span class="blog-author">by
+                                {{ . }}
+                            </span>
+                            {{ end }}
+                            {{ with .Params.tags }}
+                            <span class="blog-tags">
+                                {{ delimit . ", " }}
+                            </spa>
+                            {{ end }}
+                        </div>
+                        <p>
+                            {{ .Summary }}
+                        </p>
+                        {{ with .Permalink }}<a href="{{ . }}" class="btn btn-dafault btn-details hvr-bounce-to-right">Continue Reading</a>{{ end }}
+                    </div>
+                </article>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
 
 
-	<section class="blog section">
-		<div class="container">
-			<div class="row">
-				{{ range (.Paginator 6).Pages }}
-				<div class="col-md-6">
-					<article class="blog-post">
-						{{ with .Params.image }}
-						<img src="{{ . | absURL }}" class="img-responsive" alt="post-thumb"> {{ end }}
-						<a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>
-						<p>
-							{{ .Summary }}
-						</p>
-						<a href="{{ .Permalink }}" class="btn btn-main">Read More</a>
-					</article>
-				</div>
-				{{ end }}
-			</div>
-			
-		</div>
-	</section>
-
-	{{ partial "footer.html" . }}
-
+{{ partial "footer.html" . }}
 </body>
 </html>
