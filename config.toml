@@ -11,20 +11,8 @@ title = "Careers site for MD"
     url = "/life-at-md"
   [[menu.header]]
     weight = 2
-    name = "Recruitment Process"
-    url = "/recruitment-process"
-  [[menu.header]]
-    weight = 3
-    name = "Current opening"
-    url = "/current-opening"
-  [[menu.header]]
-    weight = 4
-    name = "Company"
+    name = "Blogs"
     url = "/post"
-  [[menu.header]]
-    weight = 5
-    name = "About Us"
-    url = "/about-us"
 
     
 # Parameters passed inside pages
